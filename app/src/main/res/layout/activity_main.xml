@@ -7,11 +7,12 @@
     tools:context=".MainActivity">
 
     <fragment
+        android:id="@+id/nav_post_host"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:name="androidx.navigation.fragment.NavHostFragment"
         app:defaultNavHost="true"
-         app:NavGraph="@navigation/nav_post_graph"
+         app:navGraph="@navigation/nav_post_graph"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="3dp"
+    android:padding="5dp"
+    android:background="#bee"
+    tools:context=".ui.PostDetailsFragment">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_postId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_5sdp"
+        tools:text="55"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="---------------------------------------------------"/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_userId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_5sdp"
+        tools:text="55"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="---------------------------------------------------"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_post_titile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="italic"
+        tools:text="chcjcjccjcjcjjcjcj"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="---------------------------------------------------"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_post_deac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="italic"
+        tools:text="chcjcjccjcjcjjcjcj"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="---------------------------------------------------"/>
+
+</LinearLayout>
