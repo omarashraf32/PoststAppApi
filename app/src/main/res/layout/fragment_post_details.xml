@@ -62,9 +62,11 @@
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/txt_post_deac"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
+        android:ellipsize="end"
+        android:maxLines="3"
         android:textSize="@dimen/_18ssp"
         android:textStyle="italic"
         tools:text="chcjcjccjcjcjjcjcj"/>
@@ -75,5 +77,14 @@
         android:textStyle="bold"
         android:layout_marginTop="@dimen/_5sdp"
         android:text="---------------------------------------------------"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/comment_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_comment_layout"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+
 
 </LinearLayout>
